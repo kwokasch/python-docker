@@ -32,4 +32,4 @@ jobs:
           context: .    #Build context
           file: ./Dockerfile 
           push: true    #tells the action to upload the image to a registry after building it
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/clockbox:latest #tags that specify where to push the image.
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-docker:latest #tags that specify where to push the image.
